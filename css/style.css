@@ -1,0 +1,376 @@
+
+body{
+    background-color: #1e1e1e;
+
+
+
+}
+
+header{
+    border-bottom: solid #ffffff3a;
+    height: 90px;
+    width: 100%;
+}
+
+header .logo img{
+    height: 60px;
+    top: 10px;
+    position: relative;
+margin-left: 200px;
+
+}
+
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -50px;
+
+}
+header ul li{
+    list-style: none;
+}
+
+header ul li a{
+    color: #ffffff;
+    display: block;
+    margin-top: -86px;
+    padding: 40px 20px;
+    font-size: 13px;
+    font-family: "Fira Sans Extra Condensed";
+    text-transform: uppercase; 
+    border-top: 5px solid transparent; 
+    text-decoration: none;
+}
+
+header ul li a:hover{
+   border-top: 5px solid #ffc100;
+}
+
+.selected{
+    border-top: 5px solid #ffc100;
+}
+
+.cart{
+    float: right;
+    text-decoration: none;
+    margin-right: 200px;
+    margin-top: 10px;
+    
+   
+}
+
+.fa-shopping-bag{
+    display: flex;
+   text-decoration: none;
+   color: #132959;
+   background-color: #ffffff;
+   width: 53px;
+   height: 53px;
+   border-radius: 14px;
+   justify-content: center;
+   align-items: center;
+}
+
+
+
+ .eat{
+display : flex;
+width: 20px;
+height: 20px;
+background-color: #ffc100;
+color: #132959;
+justify-content: center;
+font-size: 10px;
+align-items: center;
+font-weight: 800;
+font-family: "Fira Sans Extra Condensed";
+border-radius: 12px;
+margin-top: -60px;
+margin-left: 32px;
+position: absolute;
+    box-shadow: -2px 2px  10px rgba(0, 0, 0, 0.60);
+ }
+
+
+section{
+    position: relative;
+    padding: 30px 0px;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-right: 750px;
+   height: 100vh;
+
+
+}
+ section .product-name{
+      margin-left:80px;
+      align-items: flex-start;
+      justify-content: flex-start;
+      position: relative;
+      top: 20px;
+      color: #fff;
+ }
+
+ section .product-name h1{
+     text-transform: uppercase;
+     font-size: 4em;
+     font-family: "Open San Condensed", sans-serif;
+     justify-content: block;
+ }
+
+ section .product-name p{
+     padding-top:-30px;
+     font-family: "Fira Sans", sans-serif;
+     font-size: 13px;
+     margin: 20px 0px;
+     font-weight: 200;
+     line-height: 1.5em;
+     align-items: justify;
+ }
+
+
+ section .product-name h3{
+font-family: "Fira Sans Extra Condensed" , sans-serif;
+font-size:2.2em;
+color: #ffd54f;
+font-weight: 500;
+margin-bottom: 30px;
+
+ }
+
+ section .product-name button.add-to-cart{
+ padding: 15px 50px;
+ text-transform: uppercase;
+ font-family: "Fira Sans Extra Condensed", sans-serif;
+ border: none;
+ background-color: #ffd54f;
+ border-radius: 5px;
+ cursor: pointer;
+ outline: none;
+ }
+
+ section .product-name button.add-to-cart:hover{
+background-color: #ffc100;
+ }
+
+ section .product-display{
+    float: left;
+    margin-top: -550px;
+    padding-left: 290px;
+ }
+
+section .product-display .product-wrap{
+    display: none;
+ }
+
+ .active{
+     display: block !important;
+ }
+
+ section .product-display img.product{
+     height: 550px;
+     transform: rotate(-20deg);
+
+ }
+
+ section .product-display img.shadow{
+     height: 600px;
+     margin-top: -270px;
+     transform: rotate(-11deg);
+     filter: opacity(0.5);
+ }
+
+ .prefix-10{
+   display: flex;
+   justify-content: flex-end;
+
+
+
+ }
+
+ section .color-picker{   
+    flex-direction: column;
+    margin-right:70px ; 
+    margin-top: -280px;
+  
+ 
+
+ }
+
+ section .color-picker .accent-wrapper{
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 12px;
+    cursor: pointer;
+   ;
+   
+   
+ 
+ }
+
+h1#branded{
+    position: absolute;
+    margin-top: -50px;
+    padding-left: 170px;
+    z-index: -1;
+    font-size: 40em;
+    font-weight: 900;
+    font-family:  "Fira Sans Extra Condensed", sans-serif;
+    color:rgba(41, 42, 44, 0.3) ;
+}
+
+
+
+
+.checked{
+    background-color:rgba(255, 255, 255, 0.8 )!important;
+}
+
+section .color-picker .accent-wrapper .accent{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    position: absolute;
+    margin-top: 7px;
+    margin-left: 8px;
+    
+}
+section .color-picker .accent-wrapper .accent.one{
+    background-color: rgb(92, 6, 6);
+    
+}
+
+section .color-picker .accent-wrapper .accent.two{
+    background-color: #ffffff;
+border: 2px solid #41b39c;
+}
+section .color-picker .accent-wrapper .accent.three{
+    background-color: rgb(6, 6, 100);
+}
+
+
+.castle{
+justify-content: center;
+width: 90px;
+border-bottom: 2px solid #fff;
+margin-left: 5px;
+}
+
+.art{
+color: #fff;
+font-size: 1em;
+padding: 10px;
+letter-spacing: 2px;
+}
+
+
+.product-showcase{
+position: absolute;
+display: flex;
+flex-direction: row;
+margin: 5px;
+}
+
+.showcase{
+  height: 15px;
+  width: 250px;
+  background-color: #fff;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  padding: 75px; 
+  padding-left: 30px;
+  margin-left: 80px;
+
+  
+}
+
+.img-space .duct{
+    height: 110px;
+    transform: rotate(-27deg);
+    margin-left: -100px;
+    padding-top:-100px;
+   position: relative;
+   
+   
+}
+.showcase-details{
+    color: #132959;
+padding: 5px;
+font-family: "Fira Sans Condensed";
+float: right;
+text-transform: uppercase;
+padding-left: 70px;
+position: absolute;
+font-size: 8px;
+margin-top: -80px;
+}
+
+.showcase-details ul{
+    list-style: none;
+    margin-left: -42px;
+    font-size: 18px;
+    display: flex;
+
+
+    
+
+}
+.fa-star{
+    padding: 8px;
+    margin-left: -10px;
+}
+
+a.to-cart{
+    float: right;
+    padding: 10px 20px;
+    right: 0;
+    bottom: 0;
+    font-size: 15px;
+font-weight: 600;
+cursor: pointer;
+color: black;
+border-top-left-radius: 12px;
+}
+
+
+a.to-cart:hover{
+    box-shadow: -2px -2px 6px rgba(0, 0, 0, 0.10);
+}
+
+.title{
+font-weight: 900;
+}
+
+.price{
+margin-bottom: 10px;
+}
+
+.avaliable-type{
+font-size: 15px;
+font-weight: 600;
+padding-bottom: 20px;
+}
+
+footer{
+    height: 100px;
+    margin:  20px;
+    width: 50%;
+    font-family:"Fira Sans Extra Condensed" ;
+    
+}
+
+
+
+
+
+
+
+
+
+
